@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-06-01T01:30:20</DateModified>
+  <DateModified>2015-06-01T12:55:11</DateModified>
   <ModuleName>TinyCPU</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/iseconfig/TinyCPU.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Alibek Aidarov/Downloads/Lab4/Verilog/iseconfig/TinyCPU.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Alibek Aidarov/Downloads/Lab4/Verilog\</ImplementationReportsDirectory>
   <DateInitialized>2015-06-01T01:29:35</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
