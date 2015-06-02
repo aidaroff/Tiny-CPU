@@ -20,11 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 module BusSplit(
     output [7:0] data,
-    output [3:0] instruction,
+    output [3:0] bussplit_instruction,
     input [11:0] bussplit_input
     );
 
 	 assign data = bussplit_input[7:0];
-	 assign instruction = bussplit_input[11:8];
+	 assign bussplit_instruction = bussplit_input[11:8];
 	 
 endmodule

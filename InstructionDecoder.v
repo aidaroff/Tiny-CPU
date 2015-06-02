@@ -29,7 +29,14 @@ module InstructionDecoder(
     output S2,
     output S3
     );
-	 reg Clear, EnableA, EnableB, EnableOut, S0, S1, S2, S3;
+	 reg Clear;
+	 reg EnableA;
+	 reg EnableB; 
+	 reg EnableOut; 
+	 reg S0; 
+	 reg S1; 
+	 reg S2;
+	 reg S3;
 	 always @(instruction)
 	 begin
 		if(instruction == 4'b0000)
@@ -39,9 +46,9 @@ module InstructionDecoder(
 			EnableB <= 1'b1;
 			EnableOut <= 1'b1;
 			S0 <= 1'bx;
-			 S1 <= 1'bx;
-			 S2 <= 1'bx;
-			 S3 <= 1'bx;
+			S1 <= 1'bx;
+			S2 <= 1'bx;
+			S3 <= 1'bx;
 		end
 		else if(instruction == 4'b0001)
 		begin

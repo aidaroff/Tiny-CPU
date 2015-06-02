@@ -5,7 +5,55 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Xorer.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">xorer_output</arg> is not allowed
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register8bit.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">Qout</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Orer.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">orer_output</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Nander.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">nander_output</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux8To1.v" Line 33: Redeclaration of ansi port <arg fmt="%s" index="1">Y</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux2To1.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">mux2to1_output</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">Clear</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 33: Redeclaration of ansi port <arg fmt="%s" index="1">EnableA</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">EnableB</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">EnableOut</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 36: Redeclaration of ansi port <arg fmt="%s" index="1">S0</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 37: Redeclaration of ansi port <arg fmt="%s" index="1">S1</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 38: Redeclaration of ansi port <arg fmt="%s" index="1">S2</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 39: Redeclaration of ansi port <arg fmt="%s" index="1">S3</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Comparator.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">Out7</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Ander.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">ander_output</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Adder.v" Line 26: Redeclaration of ansi port <arg fmt="%s" index="1">adder_output</arg> is not allowed
 </msg>
 
 </messages>

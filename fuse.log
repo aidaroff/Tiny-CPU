@@ -1,19 +1,61 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register_Tester_isim_beh.exe -prj C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register_Tester_beh.prj work.Register_Tester work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/TinyCPUTest_isim_beh.exe -prj C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/TinyCPUTest_beh.prj work.TinyCPUTest work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Xorer.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Xorer.v" Line 26: Redeclaration of ansi port xorer_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/ShiftRight.v" into library work
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/ShiftLeft.v" into library work
 Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register8bit.v" into library work
 WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register8bit.v" Line 28: Redeclaration of ansi port Qout is not allowed
-Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register_Tester.v" into library work
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Orer.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Orer.v" Line 26: Redeclaration of ansi port orer_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Nander.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Nander.v" Line 26: Redeclaration of ansi port nander_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux8To1.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux8To1.v" Line 33: Redeclaration of ansi port Y is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux2To1.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Mux2To1.v" Line 27: Redeclaration of ansi port mux2to1_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 32: Redeclaration of ansi port Clear is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 33: Redeclaration of ansi port EnableA is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 34: Redeclaration of ansi port EnableB is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 35: Redeclaration of ansi port EnableOut is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 36: Redeclaration of ansi port S0 is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 37: Redeclaration of ansi port S1 is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 38: Redeclaration of ansi port S2 is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/InstructionDecoder.v" Line 39: Redeclaration of ansi port S3 is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Comparator.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Comparator.v" Line 27: Redeclaration of ansi port Out7 is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/BusSplit.v" into library work
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Ander.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Ander.v" Line 26: Redeclaration of ansi port ander_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Adder.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Adder.v" Line 26: Redeclaration of ansi port adder_output is not allowed
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/TinyCPU.v" into library work
+Analyzing Verilog file "C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/TinyCPUTest.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
+Compiling module BusSplit
+Compiling module InstructionDecoder
+Compiling module Mux2To1
 Compiling module Register8bit
-Compiling module Register_Tester
+Compiling module Adder
+Compiling module ShiftLeft
+Compiling module ShiftRight
+Compiling module Ander
+Compiling module Orer
+Compiling module Xorer
+Compiling module Nander
+Compiling module Comparator
+Compiling module Mux8To1
+Compiling module TinyCPU
+Compiling module TinyCPUTest
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 3 Verilog Units
-Built simulation executable C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/Register_Tester_isim_beh.exe
-Fuse Memory Usage: 26216 KB
-Fuse CPU Usage: 373 ms
+Compiled 16 Verilog Units
+Built simulation executable C:/Users/Alibek Aidarov/Downloads/Lab4/Lab4/TinyCPUTest_isim_beh.exe
+Fuse Memory Usage: 26728 KB
+Fuse CPU Usage: 358 ms

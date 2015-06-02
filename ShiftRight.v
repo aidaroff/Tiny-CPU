@@ -19,10 +19,10 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module ShiftRight(
-    input [7:0] A,
+    input [7:0] shiftright_input,
     output [7:0] Out2
     );
 	 
-	 assign Out2 = A >> 1;
+	 assign Out2 = shiftright_input >> 1;
 
 endmodule

@@ -19,9 +19,9 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module ShiftLeft(
-    input [7:0] A,
+    input [7:0] shiftleft_input,
     output [7:0] Out1
     );
-	 assign Out1 = A << 1;
+	 assign Out1 = shiftleft_input << 1;
 
 endmodule
